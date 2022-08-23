@@ -96,7 +96,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", barData, barLayout);
     
  // Deliverable 1 Step 10. Use Plotly to plot the data with the layout. 
- Plotly.newPlot(); 
+ 
 
  // 1. Create the trace for the bubble chart.
  var bubbleData = [{
@@ -106,7 +106,7 @@ function buildCharts(sample) {
    mode: "markers",
     marker: {
       size: bubbleValues,
-      color: bubbleValues,
+      color: ids,
       colorscale: "Portland" 
     }
  }];
@@ -144,10 +144,10 @@ console.log(wfreqs)
 // Create the yticks for the bar chart.
 
 // Use Plotly to plot the bar data and layout.
-Plotly.newPlot();
+
 
 // Use Plotly to plot the bubble data and layout.
-Plotly.newPlot();
+
 
 // 4. Create the trace for the gauge chart.
 var gaugeData = [{
@@ -175,6 +175,6 @@ var gaugeLayout = {
  };
 
 // 6. Use Plotly to plot the gauge data and layout.
-Plotly.newPlot();
-});
+Plotly.newPlot("gauge", gaugeData, gaugeLayout)
+  });
 }
