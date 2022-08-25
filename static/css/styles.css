@@ -10,7 +10,7 @@ body {
     }  
 
 .jumbotron {
-    background-image: url("../images/bacteria.jpg");
+    background-image: url("/Users/bryant/Desktop/Data/Election_Analysis/JSv/static/images");
     background-size: 100% 100%;
     text-align: center;
   }
