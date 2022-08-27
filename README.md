@@ -14,5 +14,13 @@ Data Source: BellyButton_bar_chart_starter_code.js, BellyButton_bubble_chart_sta
 
 Horizontal Bar Chart:
 
-Full Dashboard 
+<img width="441" alt="Horizontal" src="https://user-images.githubusercontent.com/106555873/187039337-ccbd6379-5b5b-40ad-b029-d47866c8cf2d.png">
+
+
+Full Dashboard:
+
+<img width="1243" alt="Full Dash" src="https://user-images.githubusercontent.com/106555873/187039382-98134725-3a4a-440e-aaba-e772febce925.png">
+
+
+
 
